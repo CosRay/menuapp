@@ -20,6 +20,6 @@ SOURCES += main.cpp
 RESOURCES += qml.qrc
 
 # Default rules for deployment.
-qnx: target.path = /tmp/qtappOne/bin
-else: unix:!android: target.path = /opt/qtappOne/bin
+qnx: target.path = /tmp/qtappone/bin
+else: unix:!android: target.path = /opt/qtappone/bin
 !isEmpty(target.path): INSTALLS += target
