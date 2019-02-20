@@ -23,6 +23,3 @@ RESOURCES += qml.qrc
 qnx: target.path = /tmp/qtappOne/bin
 else: unix:!android: target.path = /opt/qtappOne/bin
 !isEmpty(target.path): INSTALLS += target
-
-DISTFILES += \
-    ../Images/RurCover.jpg

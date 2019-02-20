@@ -56,13 +56,13 @@ ApplicationWindow {
         anchors.fill: parent
     }
 
-    Image {
-        id: ruracio
-        source: "RurCover.jpg" //RurCover.jpg
-        anchors.fill: parent
-        sourceSize: Qt.size(250, 300)
-        fillMode: Image.PreserveAspectFit
-    }
-
-
 }
+
+
+
+
+
+
+
+
+
